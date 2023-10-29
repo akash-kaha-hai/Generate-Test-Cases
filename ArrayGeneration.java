@@ -1,5 +1,4 @@
  package Array;
-//package backend;
 
 import javax.swing.*;
 import java.util.*;
@@ -186,17 +185,4 @@ import java.util.*;
 
             out.setText(res);
         }
-
-        public ArrayGeneration() {
-
-        }
-
-        /*              ****************Debug*******************
-         *   public static void main(String[] args) {
-         *       //s se mn mx tc sep odd  even  any  prime inc   dec  ran   htc   stc  mtc  neg 	dis
-         *       String str = "10 *** 1 15 10 ------------- true false false false true false false false true true false false ";
-         *       System.out.print(generate(str));
-         *
-         *   }
-         */
     }
