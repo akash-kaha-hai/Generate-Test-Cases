@@ -254,27 +254,6 @@ public class CreateArrayGUI {
 
                 String input[] = {countTxt.getText(), sepTxt.getText(), minTxt.getText(), maxTxt.getText(), repTxt.getText(), repSepTxt.getText(), ""+OOnly.isSelected(), ""+EOnly.isSelected(), ""+Any.isSelected(), ""+POnly.isSelected(), ""+inc.isSelected(), ""+dec.isSelected(), ""+rand.isSelected(), ""+item1.isSelected(), ""+item2.isSelected(), ""+item3.isSelected(), ""+item4.isSelected()};
                 generateArray.generate(input);
-
-                /*   *****************Debug************
-                 *   String str = "Total : "+countTxt.getText()+"\n";
-                 *   str += "Output Seprated by : "+sepTxt.getText()+"\n";
-                 *   str += "min : "+minTxt.getText()+"\n";
-                 *   str += "max : "+maxTxt.getText()+"\n";
-                 *   str += "repeat : "+repTxt.getText()+"\n";
-                 *   str += "repeat separated by : "+repSepTxt.getText()+"\n";
-                 *   str += "Odd only : "+OOnly.isSelected()+"\n";
-                 *   str += "even only : "+EOnly.isSelected()+"\n";
-                 *   str += "Any : "+Any.isSelected()+"\n";
-                 *   str += "Prime only : "+POnly.isSelected()+"\n";
-                 *   str += "increasing : "+inc.isSelected()+"\n";
-                 *   str += "decreasing : "+dec.isSelected()+"\n";
-                 *   str += "random : "+rand.isSelected()+"\n";
-                 *   str += "Hide total count : "+item1.isSelected()+"\n";
-                 *   str += "Show total cases : "+item2.isSelected()+"\n";
-                 *   str += "make total count random : "+item3.isSelected()+"\n";
-                 *   str += "Distinct elements : "+item4.isSelected()+"\n";
-                 *   arrOutput.setText(str);
-                 */
             }
         });
     }
